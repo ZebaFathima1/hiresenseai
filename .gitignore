@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Backend runtime data
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/hiresense.db
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE / tools
+.qodo/
+.vscode/
+.idea/
